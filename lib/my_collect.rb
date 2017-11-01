@@ -4,9 +4,10 @@ def my_collect(array)
   var = ""
   while i < array.length
     yield var =  array[i]
+    result << var
     i += 1
   end
-  puts var
+  result 
 end
 
 
