@@ -2,7 +2,8 @@ def my_collect(array)
   i = 0
   result = []
   while i < array.length
-    yield result << array[i]
+    yield var = array[i]
+    result << var
     i += 1
   end
 end
