@@ -6,4 +6,5 @@ def my_collect(array)
     result << var
     i += 1
   end
+  result
 end
