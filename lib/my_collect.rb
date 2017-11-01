@@ -6,7 +6,7 @@ def my_collect(array)
     yield var =  array[i]
     i += 1
   end
-  var
+  puts var
 end
 
 
